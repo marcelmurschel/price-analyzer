@@ -36,7 +36,7 @@ data_table_header_style = {
 }
 
 # Load data
-df = pd.read_excel('pricedataex2.xlsx')
+df = pd.read_csv('pricedata.csv')
 
 # Data preprocessing
 data = df
